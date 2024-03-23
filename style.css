@@ -1,0 +1,72 @@
+*{
+    position: relative;
+    z-index: 1;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 50px;
+    
+}
+body{
+    margin: 20px;
+    text-align: center;
+    
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border: none;
+    background-color: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.score{
+    color: white;
+}
+.Contact{
+    margin-top: 22%;    
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+.green{
+    color: green;
+   
+}
+.Red{
+    color: red;
+    
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
